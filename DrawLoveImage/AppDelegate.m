@@ -16,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UIWindow *window = [UIWindow alloc];
+    window.backgroundColor = [UIColor whiteColor];
+    [window makeKeyWindow];
     return YES;
 }
 

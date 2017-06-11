@@ -15,6 +15,7 @@
 		7E07025E1EED8C9700084A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E07025C1EED8C9700084A11 /* LaunchScreen.storyboard */; };
 		7E0702691EED8C9700084A11 /* DrawLoveImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0702681EED8C9700084A11 /* DrawLoveImageTests.m */; };
 		7E0702741EED8C9700084A11 /* DrawLoveImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0702731EED8C9700084A11 /* DrawLoveImageUITests.m */; };
+		7E0702891EED8FC400084A11 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0702881EED8FC400084A11 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7E07026F1EED8C9700084A11 /* DrawLoveImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawLoveImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0702731EED8C9700084A11 /* DrawLoveImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawLoveImageUITests.m; sourceTree = "<group>"; };
 		7E0702751EED8C9700084A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0702871EED8FC400084A11 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomView.h; path = ../CustomView.h; sourceTree = "<group>"; };
+		7E0702881EED8FC400084A11 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomView.m; path = ../CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7E0702521EED8C9700084A11 /* AppDelegate.m */,
 				7E0702541EED8C9700084A11 /* ViewController.h */,
 				7E0702551EED8C9700084A11 /* ViewController.m */,
+				7E0702871EED8FC400084A11 /* CustomView.h */,
+				7E0702881EED8FC400084A11 /* CustomView.m */,
 				7E0702571EED8C9700084A11 /* Main.storyboard */,
 				7E07025A1EED8C9700084A11 /* Assets.xcassets */,
 				7E07025C1EED8C9700084A11 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0702561EED8C9700084A11 /* ViewController.m in Sources */,
+				7E0702891EED8FC400084A11 /* CustomView.m in Sources */,
 				7E0702531EED8C9700084A11 /* AppDelegate.m in Sources */,
 				7E0702501EED8C9700084A11 /* main.m in Sources */,
 			);
